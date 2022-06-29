@@ -87,12 +87,11 @@ class InformationSurvey extends React.Component {
           html: `<p style="font-size: 110%; margin: auto;"
         }>
           <em>
-            The following survey is conducted to perform a
+            The following survey will be conducted to perform a
             <strong>Subjective Audio Quality Assesment</strong> for the
             <strong>
               UoM - 5G IC Remote Music Collaboration Application with 5G
-            </strong>
-            , a project implemented by <strong>UoM - 5G Innovation Center.</strong>
+            </strong>, a project implemented by <strong>UoM - 5G Innovation Center.</strong>
           </em>
         </p>
         <h2 style="color: black;margin-top: 4%;">Instructions</h2>
@@ -146,7 +145,7 @@ class InformationSurvey extends React.Component {
           type: "dropdown",
           name: "Device",
           title:
-            "We highly reccomend you to use whatever the headphones you have. Even if you're using any-other reproduction device, please specify below.",
+            "We highly recommend you to use whatever headphones you have. Even if you're using another reproduction device, please specify below.",
           isRequired: true,
           colCount: 0,
           choices: [
@@ -319,7 +318,7 @@ class InformationSurvey extends React.Component {
         {
           type: "dropdown",
           name: "rating1",
-          title: "What is your perceived quality",
+          title: "What is your perceived quality?",
           isRequired: true,
 
           hasNone: false,
@@ -349,7 +348,7 @@ class InformationSurvey extends React.Component {
         {
           type: "dropdown",
           name: "rating2",
-          title: "What is your perceived quality",
+          title: "What is your perceived quality?",
           isRequired: true,
 
           hasNone: false,
@@ -379,7 +378,7 @@ class InformationSurvey extends React.Component {
         {
           type: "dropdown",
           name: "rating3",
-          title: "What is your perceived quality",
+          title: "What is your perceived quality?",
           isRequired: true,
 
           hasNone: false,
@@ -409,7 +408,7 @@ class InformationSurvey extends React.Component {
         {
           type: "dropdown",
           name: "rating4",
-          title: "What is your perceived quality",
+          title: "What is your perceived quality?",
           isRequired: true,
 
           hasNone: false,
@@ -439,7 +438,7 @@ class InformationSurvey extends React.Component {
         {
           type: "dropdown",
           name: "rating5",
-          title: "What is your perceived quality",
+          title: "What is your perceived quality?",
           isRequired: true,
 
           hasNone: false,
@@ -456,7 +455,7 @@ class InformationSurvey extends React.Component {
         {
           type: "comment",
           name: "suggestions",
-          title: "Please add any comments or suggestions if you have",
+          title: "Please add any comments or suggestions if you have.",
         },
       ],
     };
