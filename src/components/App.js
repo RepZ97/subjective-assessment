@@ -1,7 +1,7 @@
 import React from "react";
 import InformationSurvey from "./InformationSurvey";
 import logo from "../Logo/5G Innovation Center.png";
-//import TestAudio from "./testAudio";
+import TestAudio from "./testAudio";
 
 class App extends React.Component {
   render() {
