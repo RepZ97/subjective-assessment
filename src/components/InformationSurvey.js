@@ -179,7 +179,7 @@ class InformationSurvey extends React.Component {
           <div class="intro__body wysiwyg">
             \t\t
             <p>
-              There are 6 different audio clips presented in this survey.
+              There are 5 different audio clips presented in this survey.
               Following each audio clip, there is a dropdown box where you can
               select a quality grade from 1-to 5. Please read the following
               guidelines and listen to the audio clips and instructions carefully.
