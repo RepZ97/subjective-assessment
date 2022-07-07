@@ -88,10 +88,10 @@ class InformationSurvey extends React.Component {
         }>
           <em>
             The following survey will be conducted to perform a
-            <strong>Subjective Audio Quality Assesment</strong> for the
+            <strong>Subjective Audio Quality Assessment</strong> for the
             <strong>
-              UoM - 5G IC Remote Music Collaboration Application with 5G
-            </strong>, a project implemented by <strong>UoM - 5G Innovation Center.</strong>
+              Remote Music Collaboration Application with 5G
+            </strong>, a project implemented by <strong>Dialog - UoM 5G Innovation Center.</strong>
           </em>
         </p>
         <h2 style="color: black;margin-top: 4%;">Instructions</h2>
@@ -116,7 +116,7 @@ class InformationSurvey extends React.Component {
           title: "Please cross off the unpreferred choice with a line",
           //titleLocation: "hidden",
           label:
-            "Do you have a history with any hearing impairment (mild, moderate, severe, or profound) prior to the experiment ?",
+            "Do you have a history with of any hearing impairment (mild, moderate, severe, or profound) before the experiment ?",
           isRequired: true,
         },
         {
@@ -164,7 +164,6 @@ class InformationSurvey extends React.Component {
           type: "text",
           title:
             "If you're using some type of headphones, please specify the manufacturer or the brand. (You can leave this blank if you don't know the brand or the manufacturer)",
-          placeHolder: "Beats by Dre",
         },
 
         {
@@ -207,7 +206,7 @@ class InformationSurvey extends React.Component {
               <li>
                 \t\t
                 <p>
-                  In each audio clip, first the reference audio will be played and
+                  In each audio clip, first, the reference audio will be played and
                   then the test audio. Then the process will be repeated once
                   again for your convenience. (Order will be as follows)\t\t
                   <ol>
@@ -230,7 +229,7 @@ class InformationSurvey extends React.Component {
                 \t\t
                 <li>
                   \t\t
-                  Refer to the below Table 1 for the guidance on selecting a
+                  Refer to below Table 1 for guidance on selecting a
                   grading category listed inside grading tables.\t\t
                 </li>\t\t
               </p>\t\t
@@ -279,11 +278,11 @@ class InformationSurvey extends React.Component {
             <tbody>
               <tr>
                 <td>5 Excellent</td>
-                <td>5 Imperceptable</td>
+                <td>5 Imperceptible</td>
               </tr>
               <tr>
                 <td>4 Good</td>
-                <td>4 Perceptable, but not annoying</td>
+                <td>4 Perceptible, but not annoying</td>
               </tr>
               <tr>
                 <td>3 Fair</td>
@@ -325,8 +324,8 @@ class InformationSurvey extends React.Component {
           colCount: 0,
           choicesOrder: "dsc",
           choices: [
-            "5 - Imperceptable",
-            "4 - Perceptable",
+            "5 - Imperceptible",
+            "4 - Perceptible",
             "3 - Slightly annoying",
             "2 - Annoying",
             "1 - Very annoying",
@@ -355,8 +354,8 @@ class InformationSurvey extends React.Component {
           colCount: 0,
           choicesOrder: "dsc",
           choices: [
-            "5 - Imperceptable",
-            "4 - Perceptable",
+            "5 - Imperceptible",
+            "4 - Perceptible",
             "3 - Slightly annoying",
             "2 - Annoying",
             "1 - Very annoying",
@@ -385,8 +384,8 @@ class InformationSurvey extends React.Component {
           colCount: 0,
           choicesOrder: "dsc",
           choices: [
-            "5 - Imperceptable",
-            "4 - Perceptable",
+            "5 - Imperceptible",
+            "4 - Perceptible",
             "3 - Slightly annoying",
             "2 - Annoying",
             "1 - Very annoying",
@@ -415,8 +414,8 @@ class InformationSurvey extends React.Component {
           colCount: 0,
           choicesOrder: "dsc",
           choices: [
-            "5 - Imperceptable",
-            "4 - Perceptable",
+            "5 - Imperceptible",
+            "4 - Perceptible",
             "3 - Slightly annoying",
             "2 - Annoying",
             "1 - Very annoying",
@@ -445,8 +444,8 @@ class InformationSurvey extends React.Component {
           colCount: 0,
           choicesOrder: "dsc",
           choices: [
-            "5 - Imperceptable",
-            "4 - Perceptable",
+            "5 - Imperceptible",
+            "4 - Perceptible",
             "3 - Slightly annoying",
             "2 - Annoying",
             "1 - Very annoying",
@@ -455,7 +454,7 @@ class InformationSurvey extends React.Component {
         {
           type: "comment",
           name: "suggestions",
-          title: "Please add any comments or suggestions if you have.",
+          title: "Please add comments or suggestions if you have any.",
         },
       ],
     };
