@@ -116,7 +116,7 @@ class InformationSurvey extends React.Component {
           title: "Please cross off the unpreferred choice with a line",
           //titleLocation: "hidden",
           label:
-            "Do you have a history with of any hearing impairment (mild, moderate, severe, or profound) before the experiment ?",
+            "Do you have a history of any hearing impairment (mild, moderate, severe, or profound) before the experiment ?",
           isRequired: true,
         },
         {
