@@ -97,7 +97,7 @@ class InformationSurvey extends React.Component {
         <h2 style="color: black;margin-top: 4%;">Instructions</h2>
         <p2 >
         <span style="font-weight: bold; font-size: 110%;">
-          Please answer the following questions prior to the experimentation
+          Please answer the following questions before the experimentation
         </span>  
           <span style="font-size: 90%;">
             **(Do not disclose any information you don’t want to)
